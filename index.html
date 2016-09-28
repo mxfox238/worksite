@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Git Er Done Serivce will give you back your time, while completing the essential task of cleaning your clothes. ">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=9">
+        <title>Git Er Done - Wash-N-Fold Laundry Service</title>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <link href="/css/main.css" rel="stylesheet">
+        <link rel="shortcut icon" href="/img/favicon.ico?v=2">
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $("#menu a").click(function(e) {
+                if ($(this).attr("ref") != "#preregister") {
+                    e.preventDefault();
+                }
+                var id = $(this).attr("ref");
+                $('html,body').animate({
+                   scrollTop: $(id).offset().top
+                }, 1000);
+            });
+            
+        });
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <section class="header">
+                <div class="container">
+                <a href="/" id="logo">Git Er Done</a>
+                <ul id="menu">
+                    <li><a href="#overview" ref="#overview" title="How it works">How it works</a></li>
+                    <li><a href="#why" ref="#why" title=""Why Git Er Done">Why Git Er Done</a></li>
+                    <li><a href="mailto:contact@giterdone.business?Subject=Preregister Client&body=Fullname:%0AAddress:%0A" target="_top" ref="#preregister">Preregister</a></li>
+                    <li><a href="#contact" ref="#contact" title="Contact">Contact</a></li>
+                </ul>
+               </div>
+            </section>
+
+            <section class="slogan">
+            
+                <!--- <h1><strong>Do Not&nbsp;Waste</strong><br />Your&nbsp;Time!</h1> --->
+
+            </section>
+
+            <section class="overview">
+
+                <div class="system" id="overview">
+                    <div><img src="img/system.jpg" alt="Git Er Done" /></div>
+                </div>
+                <div class="container">
+                    <div class="steps">
+                        <div class="step">
+                            <span>1.</span><p>Put your clothes in your 'Git Er Done' Laundry bag, drop off bag at designated drop off point in the city</p>
+                        </div>
+
+                        <div class="step">
+                            <span>2.</span><p>We pick up laundry from designated drop off points twice a day.</p>
+                        </div>
+
+                        <div class="step">
+                            <span>3.</span><p>Within 48 hours your laundry will be clean/folded and back at the pick up spot.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="why" id="why">
+                <div class="container">
+                    <h2>Why Git Er Done</h2>
+
+
+                    <div class="items">
+                        <div class="item">
+                            <h3 class="benefit">Ease Of Use</h3>
+                            <p>You register online by entering your address, email and adding a credit card on file. You will receive a 'Git Er Done' laundry bag in the mail.  Drop off laundry bag, within 48 hours pick up clean laundry and your credit card will be charged for service .</p>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="tier">Cost Effective</h3>
+                            <p>All you need to do is drop off laundry bag and pick up clean clothes for the low cost of $1 a pound.  No more wasting your time, buying detergent or dryer sheets.</p>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="item">
+                            <h3 class="trigger">Tracking</h3>
+                            <p>The Git Er Done platform will allow you to check-in your laundry when you drop it off. We will notify you upon pick up and a final time upon completion. This will allow you to know where your laundry is at all times. </p>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="scalable">Location</h3>
+                            <p>Drop off locations will be in apartment buildings, at dry cleaners and designated areas of Roanoke.  Laundry becomes part of your morning commute to work, no more worrying about clean clothes.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="footer" id="contact">
+                <div class="container">
+                    <p><strong>Get in touch</strong><br /><a href="mailto:contact@giterdone.business">contact@giterdone.business</a></p>
+                    <p class="address">Git Er Done LLC. <br/>Roanoke, VA</p>
+                </div>
+            </section>
+
+        </div>
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54119025-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </body>
+</html>

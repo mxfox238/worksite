@@ -1,0 +1,280 @@
+@font-face {
+  font-family: 'Telegrama';
+  src: url("../fonts/telegrama_render-webfont.eot");
+  src: url("../fonts/telegrama_render-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/telegrama_render-webfont.woff2") format("woff2"), url("../fonts/telegrama_render-webfont.woff") format("woff"), url("../fonts/telegrama_render-webfont.ttf") format("truetype"), url("../fonts/telegrama_render-webfont.svg#telegramarender") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 12, main.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 15, main.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 18, main.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+/* line 26, main.scss */
+h1, h2, h3, h4, h5 {
+  letter-spacing: -0.3px;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 33, main.scss */
+.header {
+  padding: 30px;
+  overflow: auto;
+}
+/* line 37, main.scss */
+.header #logo {
+  float: left;
+  width: 305px;
+  height: 110px;
+  text-indent: -9999px;
+  background: url(../img/logo.jpg) top left no-repeat;
+  background-size: 100%;
+}
+/* line 46, main.scss */
+.header ul {
+  float: right;
+}
+/* line 48, main.scss */
+.header ul li {
+  display: inline-block;
+}
+/* line 50, main.scss */
+.header ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #666;
+  margin-left: 30px;
+}
+
+/* line 60, main.scss */
+.slogan {
+  background: #0b3040 url(../img/bg.jpg) top left no-repeat;
+  background-size: cover;
+  min-height: 630px;
+  position: relative;
+}
+/* line 66, main.scss */
+.slogan h1 {
+  position: absolute;
+  text-transform: uppercase;
+  top: 150px;
+  left: 0;
+  right: 0;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  font-weight: 200;
+}
+/* line 76, main.scss */
+.slogan h1 strong {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+/* line 85, main.scss */
+.overview .system {
+  background: #fff;
+}
+/* line 87, main.scss */
+.overview .system > div {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* line 92, main.scss */
+.overview .system img {
+  max-width: 100%;
+  padding: 40px 0;
+  display: block;
+}
+/* line 99, main.scss */
+.overview .container {
+  background: #01b4dd;
+}
+/* line 101, main.scss */
+.overview .container .steps {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 60px 20px 40px;
+}
+/* line 105, main.scss */
+.overview .container .steps .step {
+  overflow: hidden;
+  margin: 0 0 40px;
+}
+/* line 108, main.scss */
+.overview .container .steps .step span {
+  display: block;
+  float: left;
+  height: 60px;
+  width: 30px;
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.3);
+}
+/* line 116, main.scss */
+.overview .container .steps .step p {
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 0 0 60px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 130, main.scss */
+.why .container {
+  max-width: 800px;
+  margin: 0 auto 60px;
+  overflow: auto;
+}
+/* line 134, main.scss */
+.why .container h2 {
+  font-size: 30px;
+  text-align: center;
+  margin: 60px auto;
+  padding: 0 30px;
+  color: #999;
+}
+/* line 142, main.scss */
+.why .container .items {
+  overflow: auto;
+  margin-bottom: 30px;
+  padding-right: 30px;
+}
+/* line 146, main.scss */
+.why .container .items .item {
+  padding: 0 0 0 30px;
+  width: 50%;
+  line-height: 1.6;
+  float: left;
+  color: #666;
+}
+/* line 152, main.scss */
+.why .container .items .item h3 {
+  margin: 0;
+  padding: 8px 0 0 50px;
+  font-size: 18px;
+  min-height: 40px;
+  color: #111;
+}
+/* line 158, main.scss */
+.why .container .items .item h3.benefit {
+  background: url(../img/ease-icon.png) left center no-repeat;
+  background-size: 32px auto;
+  padding-top: 6px;
+}
+/* line 163, main.scss */
+.why .container .items .item h3.tier {
+  background: url(../img/cost-icon.png) left center no-repeat;
+  background-size: 40px auto;
+}
+/* line 167, main.scss */
+.why .container .items .item h3.trigger {
+  background: url(../img/bell-icon.png) left center no-repeat;
+  background-size: 24px auto;
+  padding-left: 40px;
+}
+/* line 172, main.scss */
+.why .container .items .item h3.scalable {
+  background: url(../img/location-icon.png) left center no-repeat;
+  background-size: auto 36px;
+}
+
+/* line 186, main.scss */
+.footer {
+  padding: 100px 20px;
+  background: #084c9f;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+}
+/* line 191, main.scss */
+.footer p {
+  text-align: center;
+}
+/* line 193, main.scss */
+.footer p a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* line 196, main.scss */
+.footer p a:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+/* line 200, main.scss */
+.footer p.address {
+  font-size: 13px;
+}
+
+@media (max-width: 700px) {
+  /* line 209, main.scss */
+  .why .container {
+    padding: 40px 0;
+  }
+  /* line 211, main.scss */
+  .why .container h2 {
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  /* line 215, main.scss */
+  .why .container .items {
+    margin-bottom: 0;
+  }
+  /* line 217, main.scss */
+  .why .container .items .item {
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+  }
+
+  /* line 226, main.scss */
+  .header #logo {
+    float: none;
+    margin: 0 0 20px;
+    display: block;
+  }
+  /* line 231, main.scss */
+  .header ul {
+    float: none;
+    margin-top: 10px;
+  }
+  /* line 234, main.scss */
+  .header ul li {
+    display: block;
+  }
+  /* line 236, main.scss */
+  .header ul li a {
+    width: 100%;
+    float: none;
+    display: block;
+    margin: 0 0 5px 30px;
+  }
+
+  /* line 246, main.scss */
+  .slogan {
+    min-height: 300px;
+  }
+  /* line 248, main.scss */
+  .slogan h1 {
+    top: 100px;
+    font-size: 16px;
+  }
+  /* line 251, main.scss */
+  .slogan h1 strong {
+    font-size: 28px;
+  }
+}
